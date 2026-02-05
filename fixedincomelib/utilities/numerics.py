@@ -101,7 +101,7 @@ class Interpolator1DPCP(Interpolator1D):
             self.axis1_ = np.array(axis1)[idx]
             self.values_ = np.array(values)[idx]
             self.length_ = len(self.axis1_)
-        return    axis1, values
+                
 
     def interpolate(self, x_star: float) -> float:
         bins = self.axis1_
